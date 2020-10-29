@@ -1,0 +1,90 @@
+@font-face {
+	font-family: ProximaNova; 
+	src: url(../../fonts/ProximaNova-Bold.otf);
+}
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(../../fonts/Montserrat-Regular.ttf)
+}
+@font-face {
+	font-family: Roboto-Light;
+	src: url(../../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: Merriweather-Light;
+	src: url(../../fonts/Merriweather-Light.ttf);
+}
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(../../fonts/Roboto-Medium.ttf);
+}
+body {
+	height: 100%;
+}
+.container {
+	max-width: 1055px;
+	margin: 0 auto; 
+}
+
+$prox_b: ProximaNova;
+$mont_r: Montserrat-Regular;
+$robo_l: Roboto-Light;
+$robo_r: Roboto-Regular;
+$robo_m: Roboto-Medium;
+$merri_l: Merriweather-Light;
+
+$color1: #748f8f;
+$color2: #6fb048;
+$color3: #0f5f5c;
+$color4: #83a7a5;
+$color5: #eef1ec;
+$color6: #1f6a67;
+$color7: #f2f2f2;
+$color8: #49732f;
+$color9: #b8ccc8;
+
+
+.wrapper {
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1 0 100%
+}
+.footer {
+	flex: 0 1 auto;
+}
+
+a{
+	font-family: $mont_r;
+}
+
+h2, h3, h4 {
+	color: $color3;
+}
+
+h3 {
+	font-family: $robo_r;
+	font-size: 16px;
+}
+
+p {
+	font-family: $robo_r;
+	font-size: 15px;
+	color: $color4;
+	line-height: 22px;
+}
